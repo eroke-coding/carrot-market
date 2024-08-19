@@ -10,6 +10,8 @@ const publicOnlyUrls: Route = {
   "/login": true,
   "/sms": true,
   "/create-accout": true,
+  "/github/start": true,
+  "/github/complete": true,
 };
 
 export async function middleware(request: NextRequest) {
